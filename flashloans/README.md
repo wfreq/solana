@@ -24,10 +24,15 @@ Make sure Node.js is installed on your system. You can download it [here](https:
 ### Step 2: Install Required Packages
 Navigate to the project directory in your terminal and run the following command to install the necessary dependencies:
 asdf
+'''bash
+test
+'''
+
+
 ```bash
 npm install typescript bn.js @solana/web3.js@1.98.0 @solendprotocol/solend-sdk@0.13.35
 '''
-<br>
+
 
 ### Step 3 Configure Keypair and RPC Endpoint
 Generate a New Keypair:
