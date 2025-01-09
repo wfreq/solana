@@ -27,7 +27,8 @@ Navigate to the project directory in your terminal and run the following command
 ```bash
 npm install typescript bn.js @solana/web3.js@1.98.0 @solendprotocol/solend-sdk@0.13.35
 
----
+<br>
+
 ### Step 3 Configure Keypair and RPC Endpoint
 Generate a New Keypair:
 If you don't already have a Solana keypair, generate one using the Solana CLI:
