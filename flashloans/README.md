@@ -26,3 +26,24 @@ Navigate to the project directory in your terminal and run the following command
 
 ```bash
 npm install typescript bn.js @solana/web3.js@1.98.0 @solendprotocol/solend-sdk@0.13.35
+
+### Step 3 Configure Keypair and RPC Endpoint
+Generate a New Keypair:
+If you don't already have a Solana keypair, generate one using the Solana CLI:
+
+```bash
+solana-keygen new --outfile ./keypair.json
+
+Save the keypair file in your project folder. Update your script to reference the path to this keypair file.
+
+### Step 4 Set Up an RPC Endpoint:
+
+Obtain an RPC endpoint from Chainstack, or any other provider offering Solana RPC services.
+Alternatively, you might try using the default Solana Mainnet RPC, but it might not work for all functionality.
+Make sure to update your script with the RPC endpoint URL.
+
+### Run the Script
+Once everything is set up, execute the flashloan example script by running the following command in your terminal:
+
+```bash
+ts-node borrow1solami.ts
