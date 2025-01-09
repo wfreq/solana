@@ -1,33 +1,28 @@
-#Solana Flashloan Example
+# Solana Flashloan Example
 
+This project demonstrates how to use flashloans on the Solana blockchain using the Solend SDK.
 
-#Dependencies
+---
 
-youll need Node.js
-Typescript
-BN
-Solana SDK
-and solend sdk
+## Dependencies
 
-#Step 1
-Install node.js
+To run this project, you'll need the following:
 
-#Step 2
-Open the directory where the file is in command line 
-then run 
+- **Node.js**
+- **TypeScript**
+- **BN.js**
+- **Solana SDK** (`@solana/web3.js`)
+- **Solend SDK** (`@solendprotocol/solend-sdk`)
 
+---
+
+## Setup Guide
+
+### Step 1: Install Node.js
+Make sure Node.js is installed on your system. You can download it [here](https://nodejs.org/).
+
+### Step 2: Install Required Packages
+Navigate to the project directory in your terminal and run the following command to install the necessary dependencies:
+
+```bash
 npm install typescript bn.js @solana/web3.js@1.98.0 @solendprotocol/solend-sdk@0.13.35
-
-Step 3
-Next youll need to configure your keypair and RPC endpoint variables in the file
-
-generate a keypair with solana-cli if you dont have one ready to go and copy it to your folder
-
-For an rpc endpoint you can get one from chainstack.com 
-
-**You might be able to get away with using the default solana mainnet rpc for this but no promises**
-
-
-#Run it
-
-ts-node borrow1solami.ts
