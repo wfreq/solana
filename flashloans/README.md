@@ -23,15 +23,10 @@ Make sure Node.js is installed on your system. You can download it [here](https:
 
 ### Step 2: Install Required Packages
 Navigate to the project directory in your terminal and run the following command to install the necessary dependencies:
-asdf
-'''bash
-test
-'''
-
 
 ```bash
 npm install typescript bn.js @solana/web3.js@1.98.0 @solendprotocol/solend-sdk@0.13.35
-'''
+```
 
 
 ### Step 3 Configure Keypair and RPC Endpoint
@@ -40,6 +35,7 @@ If you don't already have a Solana keypair, generate one using the Solana CLI:
 
 ```bash
 solana-keygen new --outfile ./keypair.json
+```
 
 Save the keypair file in your project folder. Update your script to reference the path to this keypair file.
 
@@ -54,3 +50,4 @@ Once everything is set up, execute the flashloan example script by running the f
 
 ```bash
 ts-node borrow1solami.ts
+```
